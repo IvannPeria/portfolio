@@ -1,31 +1,36 @@
 <!DOCTYPE html>
 <html lang="en">
-   <head>
-      <meta charset="UTF-8">
-      <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <title>Student Portfolio</title>
-      <link rel="stylesheet" href="style.css">
-   </head>
-   <body>
-      <header>
-         <h1 id="name">Ivann Q. Peria</h1>
-         <img src="3.JPG" alt="Profile Picture" id="profile-img">
-         <p id="course-year">BS Computer Science - 2nd Year</p>
-         <button id="theme-toggle">Switch Theme</button>
-      </header>
-      <section id="achievements">
-         <h2>Achievements/Certifications</h2>
-         <ul>
-            <li>IT Specialist - Java</li>
-         </ul>
-      </section>
-      <section id="projects">
-         <h2>Previous Projects</h2>
-         <ul>
-            <li>LaundryLux</li>
-            <li>Patients Records Management System</li>
-         </ul>
-      </section>
-      <script src="script.js"></script>
-   </body>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="container">
+        <img src="3.JPG" alt="Profile Picture" id="profile-img">
+        <h1 id="name">Ivann Q. Peria</h1>
+        <p id="course-year">BS Computer Science - 2nd Year</p>
+        <button id="theme-toggle">Switch Theme</button>
+    </header>
+
+    <main class="container">
+        <section class="card">
+            <h2>Achievements / Certifications</h2>
+            <ul>
+                <li>IT Specialist – Java</li>
+            </ul>
+        </section>
+
+        <section class="card">
+            <h2>Previous Projects</h2>
+            <ul>
+                <li>LaundryLux</li>
+                <li>Patients Records Management System</li>
+            </ul>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
 </html>
